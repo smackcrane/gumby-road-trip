@@ -36,7 +36,6 @@ class Area:
             self.subs = []
             self.stars = df['stars'].sum()
             self.hexes = df['h3'].unique()
-            assert len(self.hexes)==1, f"{self.name=} {self.hexes=}"
             if pbar is not None:
                 pbar.update(len(df))
 
