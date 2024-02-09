@@ -1,11 +1,8 @@
 import numpy as np
 import pandas as pd
 from h3 import h3
-from tqdm import tqdm
 import json
-import os
 import pydeck as pdk
-from AreaTree import AreaTree
 
 import streamlit as st
 
