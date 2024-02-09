@@ -1,5 +1,2 @@
-numpy
-pandas
-h3
-json
+h3==3.7.6
 pydeck
